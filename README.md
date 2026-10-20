@@ -82,7 +82,7 @@ Preview: `http://127.0.0.1:8787`. Server Node lokal menyajikan header keamanan d
 ```sh
 npm run check          # validasi konten, cadangan, dan build
 npm run test:browser   # interaksi, bahasa, layout, tema, cetak, tanpa JS
-npm run audit          # Lighthouse mobile + desktop, Indonesia + Inggris
+npm run audit          # median 3 Lighthouse mobile/desktop, Indonesia/Inggris
 npx wrangler deploy --dry-run
 npm run deploy
 ```
@@ -107,6 +107,6 @@ Skor Lighthouse adalah hasil uji laboratorium pada waktu dan kondisi tertentu, b
 
 ## Kredit dan kontribusi
 
-Ilustrasi dibuat dengan alat imagegen bawaan, bukan dokumentasi sekolah tertentu. Aset terkompresi dan [prompt serta asal aset](docs/aset.md) disimpan di repository. Font DM Sans dan ikon Phosphor dihosting sendiri; lisensi masing-masing ikut dalam output situs.
+Ilustrasi dibuat dengan alat imagegen bawaan, bukan dokumentasi sekolah tertentu. Aset terkompresi dan [prompt serta asal aset](docs/aset.md) disimpan di repository. Font sistem menghindari unduhan tambahan. Ikon Phosphor dihosting sendiri; lisensinya ikut dalam output situs.
 
 Perbaikan pertanyaan, terjemahan, dan aksesibilitas dapat diajukan melalui issue atau pull request. Jangan menyertakan data pribadi anak atau tuduhan terhadap sekolah tertentu. Kode dan konten baru proyek memakai [lisensi MIT](LICENSE); foto sumber yang diberikan pemilik tidak termasuk izin penggunaan ulang tersebut.

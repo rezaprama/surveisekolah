@@ -51,4 +51,4 @@ Both languages render complete HTML with canonical URLs, hreflang, metadata, and
 
 Lighthouse scores are laboratory measurements, not a guarantee of future PageSpeed results. There is no universal official GEO score of 100/100. Readability, source traceability, and accurate claims are the priorities.
 
-Generated illustrations do not depict a particular school. DM Sans and Phosphor licences are included with the deployed assets. New code and content use MIT; supplied source photographs are excluded from that reuse permission.
+Generated illustrations do not depict a particular school. System fonts avoid additional downloads; the Phosphor licence is included with deployed assets. New code and content use MIT; supplied source photographs are excluded from that reuse permission.

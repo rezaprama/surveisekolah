@@ -20,8 +20,8 @@ PNG asli disimpan lokal pada `assets/original/` dan diabaikan Git. Build menggun
 
 ## Pustaka
 
-- DM Sans: `@fontsource-variable/dm-sans`, SIL Open Font License.
+- Font sistem: mengikuti perangkat pengunjung, tanpa unduhan font web.
 - Ikon: `@phosphor-icons/core`, MIT.
 - Gambar Open Graph dibuat dari teks proyek, bukan foto sekolah.
 
-Lisensi font dan ikon disertakan dalam `dist/assets/`. Foto sumber dalam `sumber/` berasal dari pemilik proyek dan tidak dilisensikan ulang sebagai foto stok.
+Lisensi ikon disertakan dalam `dist/assets/`. Foto sumber dalam `sumber/` berasal dari pemilik proyek dan tidak dilisensikan ulang sebagai foto stok.

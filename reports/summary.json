@@ -1,61 +1,131 @@
 {
   "tool": "Lighthouse",
   "version": "13.5.0",
+  "aggregation": "median of 3 cold runs per language and device",
   "results": [
     {
       "lang": "id",
       "device": "mobile",
       "url": "https://surveisekolah.rezaprama.com/",
-      "date": "2026-10-20T22:44:50.820Z",
+      "date": "2026-10-20T22:58:43.788Z",
       "scores": {
-        "performance": 93,
+        "performance": 100,
         "accessibility": 100,
         "best-practices": 100,
         "seo": 100
       },
       "metrics": {
-        "first-contentful-paint": 1322.005,
-        "largest-contentful-paint": 1838.005,
-        "total-blocking-time": 239,
-        "cumulative-layout-shift": 0,
-        "speed-index": 3995.137562224434
+        "first-contentful-paint": 1200.536,
+        "largest-contentful-paint": 1315.1955,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0007757484076481052,
+        "speed-index": 1367.890727001945
       },
-      "issues": [
+      "runs": [
         {
-          "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "score": 0.98,
-          "display": "1.3 s"
+          "lang": "id",
+          "device": "mobile",
+          "url": "https://surveisekolah.rezaprama.com/",
+          "date": "2026-10-20T22:58:24.418Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1220.1955,
+            "largest-contentful-paint": 1315.1955,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.0007757484076481052,
+            "speed-index": 1367.890727001945
+          },
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.99,
+              "display": "1.2 s"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.65,
+              "display": "210 ms"
+            }
+          ]
         },
         {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "score": 0.98,
-          "display": "1.8 s"
+          "lang": "id",
+          "device": "mobile",
+          "url": "https://surveisekolah.rezaprama.com/",
+          "date": "2026-10-20T22:58:34.284Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1200.536,
+            "largest-contentful-paint": 1294.536,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.0007757484076481052,
+            "speed-index": 1200.536
+          },
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.99,
+              "display": "1.2 s"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.66,
+              "display": "200 ms"
+            }
+          ]
         },
         {
-          "id": "speed-index",
-          "title": "Speed Index",
-          "score": 0.81,
-          "display": "4.0 s"
-        },
-        {
-          "id": "total-blocking-time",
-          "title": "Total Blocking Time",
-          "score": 0.85,
-          "display": "240 ms"
-        },
-        {
-          "id": "max-potential-fid",
-          "title": "Max Potential First Input Delay",
-          "score": 0.38,
-          "display": "290 ms"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "score": 0,
-          "display": "Est savings of 23 KiB"
+          "lang": "id",
+          "device": "mobile",
+          "url": "https://surveisekolah.rezaprama.com/",
+          "date": "2026-10-20T22:58:43.788Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1181,
+            "largest-contentful-paint": 1508,
+            "total-blocking-time": 0.5,
+            "cumulative-layout-shift": 0.0007757484076481052,
+            "speed-index": 2662.8022288703523
+          },
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.99,
+              "display": "1.2 s"
+            },
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 0.97,
+              "display": "2.7 s"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.62,
+              "display": "210 ms"
+            }
+          ]
         }
       ]
     },
@@ -63,7 +133,7 @@
       "lang": "id",
       "device": "desktop",
       "url": "https://surveisekolah.rezaprama.com/",
-      "date": "2026-10-20T22:45:03.127Z",
+      "date": "2026-10-20T22:59:14.423Z",
       "scores": {
         "performance": 100,
         "accessibility": 100,
@@ -71,23 +141,104 @@
         "seo": 100
       },
       "metrics": {
-        "first-contentful-paint": 356.869,
-        "largest-contentful-paint": 449.869,
+        "first-contentful-paint": 353.282,
+        "largest-contentful-paint": 397.9,
         "total-blocking-time": 0,
-        "cumulative-layout-shift": 0.0004127138471125771,
-        "speed-index": 461.23980072026313
+        "cumulative-layout-shift": 0.0004027860226115872,
+        "speed-index": 477.02167469747155
       },
-      "issues": [
+      "runs": [
         {
-          "id": "forced-reflow-insight",
-          "title": "Forced reflow",
-          "score": 0
+          "lang": "id",
+          "device": "desktop",
+          "url": "https://surveisekolah.rezaprama.com/",
+          "date": "2026-10-20T22:58:54.456Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 353.282,
+            "largest-contentful-paint": 383.782,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.0004027860226115872,
+            "speed-index": 477.02167469747155
+          },
+          "issues": [
+            {
+              "id": "forced-reflow-insight",
+              "title": "Forced reflow",
+              "score": 0
+            },
+            {
+              "id": "image-delivery-insight",
+              "title": "Improve image delivery",
+              "score": 0.5,
+              "display": "Est savings of 43 KiB"
+            }
+          ]
         },
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "score": 0.5,
-          "display": "Est savings of 43 KiB"
+          "lang": "id",
+          "device": "desktop",
+          "url": "https://surveisekolah.rezaprama.com/",
+          "date": "2026-10-20T22:59:04.542Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 364.9,
+            "largest-contentful-paint": 397.9,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.0004027860226115872,
+            "speed-index": 368.4353887665725
+          },
+          "issues": [
+            {
+              "id": "image-delivery-insight",
+              "title": "Improve image delivery",
+              "score": 0.5,
+              "display": "Est savings of 43 KiB"
+            }
+          ]
+        },
+        {
+          "lang": "id",
+          "device": "desktop",
+          "url": "https://surveisekolah.rezaprama.com/",
+          "date": "2026-10-20T22:59:14.423Z",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 324,
+            "largest-contentful-paint": 446,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.0004027860226115872,
+            "speed-index": 1153.1346069719266
+          },
+          "issues": [
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 0.94,
+              "display": "1.2 s"
+            },
+            {
+              "id": "image-delivery-insight",
+              "title": "Improve image delivery",
+              "score": 0.5,
+              "display": "Est savings of 43 KiB"
+            }
+          ]
         }
       ]
     },
@@ -95,58 +246,7 @@
       "lang": "en",
       "device": "mobile",
       "url": "https://surveisekolah.rezaprama.com/en/",
-      "date": "2026-10-20T22:45:13.086Z",
-      "scores": {
-        "performance": 99,
-        "accessibility": 100,
-        "best-practices": 100,
-        "seo": 100
-      },
-      "metrics": {
-        "first-contentful-paint": 1191.949,
-        "largest-contentful-paint": 1942.8980000000001,
-        "total-blocking-time": 12,
-        "cumulative-layout-shift": 0.0008640449743722798,
-        "speed-index": 2528.669659807258
-      },
-      "issues": [
-        {
-          "id": "first-contentful-paint",
-          "title": "First Contentful Paint",
-          "score": 0.99,
-          "display": "1.2 s"
-        },
-        {
-          "id": "largest-contentful-paint",
-          "title": "Largest Contentful Paint",
-          "score": 0.97,
-          "display": "1.9 s"
-        },
-        {
-          "id": "speed-index",
-          "title": "Speed Index",
-          "score": 0.97,
-          "display": "2.5 s"
-        },
-        {
-          "id": "interactive",
-          "title": "Time to Interactive",
-          "score": 0.99,
-          "display": "2.0 s"
-        },
-        {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "score": 0.5,
-          "display": "Est savings of 9 KiB"
-        }
-      ]
-    },
-    {
-      "lang": "en",
-      "device": "desktop",
-      "url": "https://surveisekolah.rezaprama.com/en/",
-      "date": "2026-10-20T22:45:23.391Z",
+      "date": "2026-10-20T22:59:47.740Z",
       "scores": {
         "performance": 100,
         "accessibility": 100,
@@ -154,18 +254,231 @@
         "seo": 100
       },
       "metrics": {
-        "first-contentful-paint": 389.547,
-        "largest-contentful-paint": 442.547,
-        "total-blocking-time": 2,
-        "cumulative-layout-shift": 0,
-        "speed-index": 534.2950333133181
+        "first-contentful-paint": 1144.9035,
+        "largest-contentful-paint": 1442.9155,
+        "total-blocking-time": 16,
+        "cumulative-layout-shift": 0.0008640449743722798,
+        "speed-index": 1519.5541398977493
       },
-      "issues": [
+      "runs": [
         {
-          "id": "image-delivery-insight",
-          "title": "Improve image delivery",
-          "score": 0.5,
-          "display": "Est savings of 42 KiB"
+          "lang": "en",
+          "device": "mobile",
+          "url": "https://surveisekolah.rezaprama.com/en/",
+          "date": "2026-10-20T22:59:26.120Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1389.9155,
+            "largest-contentful-paint": 1442.9155,
+            "total-blocking-time": 3,
+            "cumulative-layout-shift": 0.0008640449743722798,
+            "speed-index": 1519.5541398977493
+          },
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.97,
+              "display": "1.4 s"
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "device": "mobile",
+          "url": "https://surveisekolah.rezaprama.com/en/",
+          "date": "2026-10-20T22:59:36.346Z",
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1096,
+            "largest-contentful-paint": 1616,
+            "total-blocking-time": 40,
+            "cumulative-layout-shift": 0.0008640449743722798,
+            "speed-index": 3397.8262588783164
+          },
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.99,
+              "display": "1.1 s"
+            },
+            {
+              "id": "largest-contentful-paint",
+              "title": "Largest Contentful Paint",
+              "score": 0.99,
+              "display": "1.6 s"
+            },
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 0.89,
+              "display": "3.4 s"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.99,
+              "display": "80 ms"
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "device": "mobile",
+          "url": "https://surveisekolah.rezaprama.com/en/",
+          "date": "2026-10-20T22:59:47.740Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 1144.9035,
+            "largest-contentful-paint": 1273.4035,
+            "total-blocking-time": 16,
+            "cumulative-layout-shift": 0.0008640449743722798,
+            "speed-index": 1144.9035
+          },
+          "issues": [
+            {
+              "id": "first-contentful-paint",
+              "title": "First Contentful Paint",
+              "score": 0.99,
+              "display": "1.1 s"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.88,
+              "display": "130 ms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "device": "desktop",
+      "url": "https://surveisekolah.rezaprama.com/en/",
+      "date": "2026-10-20T23:00:18.751Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 355,
+        "largest-contentful-paint": 464,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0004141321077555757,
+        "speed-index": 514.5765829124787
+      },
+      "runs": [
+        {
+          "lang": "en",
+          "device": "desktop",
+          "url": "https://surveisekolah.rezaprama.com/en/",
+          "date": "2026-10-20T22:59:57.797Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 338,
+            "largest-contentful-paint": 464,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.0004141321077555757,
+            "speed-index": 500.5300919679262
+          },
+          "issues": [
+            {
+              "id": "image-delivery-insight",
+              "title": "Improve image delivery",
+              "score": 0.5,
+              "display": "Est savings of 43 KiB"
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "device": "desktop",
+          "url": "https://surveisekolah.rezaprama.com/en/",
+          "date": "2026-10-20T23:00:08.318Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 380.7195,
+            "largest-contentful-paint": 410.7195,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.0004141321077555757,
+            "speed-index": 514.5765829124787
+          },
+          "issues": [
+            {
+              "id": "image-delivery-insight",
+              "title": "Improve image delivery",
+              "score": 0.5,
+              "display": "Est savings of 43 KiB"
+            }
+          ]
+        },
+        {
+          "lang": "en",
+          "device": "desktop",
+          "url": "https://surveisekolah.rezaprama.com/en/",
+          "date": "2026-10-20T23:00:18.751Z",
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "metrics": {
+            "first-contentful-paint": 355,
+            "largest-contentful-paint": 471,
+            "total-blocking-time": 0,
+            "cumulative-layout-shift": 0.0004141321077555757,
+            "speed-index": 1110.0250626189413
+          },
+          "issues": [
+            {
+              "id": "speed-index",
+              "title": "Speed Index",
+              "score": 0.95,
+              "display": "1.1 s"
+            },
+            {
+              "id": "max-potential-fid",
+              "title": "Max Potential First Input Delay",
+              "score": 0.99,
+              "display": "80 ms"
+            },
+            {
+              "id": "image-delivery-insight",
+              "title": "Improve image delivery",
+              "score": 0.5,
+              "display": "Est savings of 43 KiB"
+            }
+          ]
         }
       ]
     }

@@ -105,7 +105,7 @@ export const copy = {
   },
 };
 export const references = [
-  ['UNICEF Indonesia', 'Pendidikan / Education', 'https://www.unicef.org/indonesia/education'],
+  ['UNICEF Indonesia', 'Pendidikan / Education', 'https://www.unicef.org/indonesia/education-and-adolescents'],
   ['Badan Gizi Nasional', 'Petunjuk teknis MBG / MBG technical guidance', 'https://www.bgn.go.id/juknis'],
   ['Kemendikdasmen', 'Referensi satuan pendidikan / School records', 'https://referensi.data.kemendikdasmen.go.id/'],
   ['BAN-PDM', 'Akreditasi / Accreditation', 'https://ban-pdm.id/'],

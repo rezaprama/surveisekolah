@@ -6,17 +6,17 @@ Tanggal: 21 Oktober 2026 (Asia/Jakarta). Alat: Lighthouse 13.5.0, Chrome terpasa
 
 | Bahasa | Perangkat | Performa | Aksesibilitas | Praktik terbaik | SEO |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Indonesia | mobile | 93 | 100 | 100 | 100 |
+| Indonesia | mobile | 100 | 100 | 100 | 100 |
 | Indonesia | desktop | 100 | 100 | 100 | 100 |
-| English | mobile | 99 | 100 | 100 | 100 |
+| English | mobile | 100 | 100 | 100 | 100 |
 | English | desktop | 100 | 100 | 100 | 100 |
 
 | Bahasa / perangkat | LCP | TBT | CLS |
 | --- | ---: | ---: | ---: |
-| id / mobile | 1.84 s | 239 ms | 0.0000 |
-| id / desktop | 0.45 s | 0 ms | 0.0004 |
-| en / mobile | 1.94 s | 12 ms | 0.0009 |
-| en / desktop | 0.44 s | 2 ms | 0.0000 |
+| id / mobile | 1.32 s | 0 ms | 0.0008 |
+| id / desktop | 0.40 s | 0 ms | 0.0004 |
+| en / mobile | 1.44 s | 16 ms | 0.0009 |
+| en / desktop | 0.46 s | 0 ms | 0.0004 |
 
 Lighthouse memakai preset mobile bawaan. Desktop memakai viewport 1350 × 940, latensi 40 ms, throughput 10.240 Kbps, dan CPU 1×. Skor dapat berubah akibat jaringan, perangkat, server, dan versi alat. Tidak ada jaminan skor PageSpeed untuk setiap kunjungan.
 
@@ -42,3 +42,22 @@ GEO tidak memiliki satu skor resmi universal 100/100. Yang diterapkan: HTML leng
 ## Produksi
 
 Cloudflare Workers Static Assets dengan Worker kecil untuk kompresi gzip HTML, HTTPS pada domain khusus. Uji kompresi memeriksa integritas isi, negosiasi encoding, CSP, dan header cache. Header `no-transform` mencegah penyisipan beacon analitik otomatis pada situs ini tanpa mengubah pengaturan domain lain. CSP membatasi sumber skrip, gaya, gambar, font, dan koneksi. Tidak ada API penerima jawaban atau basis data proyek.
+
+## Seluruh pengukuran
+
+Ringkasan di atas memakai median dari 3 pengukuran dingin per kombinasi. Setiap pengukuran membuka profil Chrome baru. Seluruh skor disimpan, termasuk pengukuran yang lebih rendah.
+
+| Bahasa / perangkat | Run | Performa | Aksesibilitas | Praktik terbaik | SEO |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| id / mobile | 1 | 100 | 100 | 100 | 100 |
+| id / mobile | 2 | 100 | 100 | 100 | 100 |
+| id / mobile | 3 | 100 | 100 | 100 | 100 |
+| id / desktop | 1 | 100 | 100 | 100 | 100 |
+| id / desktop | 2 | 100 | 100 | 100 | 100 |
+| id / desktop | 3 | 99 | 100 | 100 | 100 |
+| en / mobile | 1 | 100 | 100 | 100 | 100 |
+| en / mobile | 2 | 99 | 100 | 100 | 100 |
+| en / mobile | 3 | 100 | 100 | 100 | 100 |
+| en / desktop | 1 | 100 | 100 | 100 | 100 |
+| en / desktop | 2 | 100 | 100 | 100 | 100 |
+| en / desktop | 3 | 100 | 100 | 100 | 100 |
