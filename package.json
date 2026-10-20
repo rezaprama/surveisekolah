@@ -1,0 +1,28 @@
+{
+  "name": "surveisekolah",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Panduan kunjungan sekolah di Indonesia, dalam bahasa Indonesia dan Inggris.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "test": "node --test tests/content.test.mjs tests/worker.test.mjs",
+    "test:browser": "playwright test",
+    "check": "npm run test && npm run build && node --test tests/output.test.mjs",
+    "deploy": "npm run check && wrangler deploy",
+    "audit": "node scripts/audit.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@fontsource-variable/dm-sans": "^5.3.0",
+    "@phosphor-icons/core": "^2.1.1",
+    "@playwright/test": "^1.64.1",
+    "esbuild": "^0.28.2",
+    "lighthouse": "^13.5.0",
+    "sharp": "^0.35.5",
+    "wrangler": "^4.151.3"
+  }
+}

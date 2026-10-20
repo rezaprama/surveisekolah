@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars*
+.env*
+test-results/
+playwright-report/
+reports/*.html
+reports/*.json
+!reports/summary.json
+assets/original/
+worker-configuration.d.ts

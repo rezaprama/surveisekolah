@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "surveisekolah",
+  "main": "src/worker.js",
+  "account_id": "8c6e301847c1759dfb870b149faa05be",
+  "compatibility_date": "2026-10-20",
+  "assets": { "directory": "./dist", "binding": "ASSETS", "run_worker_first": ["/", "/en", "/en/", "/index.html", "/en/index.html"], "not_found_handling": "404-page" },
+  "routes": [{ "pattern": "surveisekolah.rezaprama.com", "custom_domain": true }],
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": true, "head_sampling_rate": 1 }
+}

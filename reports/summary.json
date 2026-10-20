@@ -1,0 +1,173 @@
+{
+  "tool": "Lighthouse",
+  "version": "13.5.0",
+  "results": [
+    {
+      "lang": "id",
+      "device": "mobile",
+      "url": "https://surveisekolah.rezaprama.com/",
+      "date": "2026-10-20T22:44:50.820Z",
+      "scores": {
+        "performance": 93,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1322.005,
+        "largest-contentful-paint": 1838.005,
+        "total-blocking-time": 239,
+        "cumulative-layout-shift": 0,
+        "speed-index": 3995.137562224434
+      },
+      "issues": [
+        {
+          "id": "first-contentful-paint",
+          "title": "First Contentful Paint",
+          "score": 0.98,
+          "display": "1.3 s"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.98,
+          "display": "1.8 s"
+        },
+        {
+          "id": "speed-index",
+          "title": "Speed Index",
+          "score": 0.81,
+          "display": "4.0 s"
+        },
+        {
+          "id": "total-blocking-time",
+          "title": "Total Blocking Time",
+          "score": 0.85,
+          "display": "240 ms"
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.38,
+          "display": "290 ms"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0,
+          "display": "Est savings of 23 KiB"
+        }
+      ]
+    },
+    {
+      "lang": "id",
+      "device": "desktop",
+      "url": "https://surveisekolah.rezaprama.com/",
+      "date": "2026-10-20T22:45:03.127Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 356.869,
+        "largest-contentful-paint": 449.869,
+        "total-blocking-time": 0,
+        "cumulative-layout-shift": 0.0004127138471125771,
+        "speed-index": 461.23980072026313
+      },
+      "issues": [
+        {
+          "id": "forced-reflow-insight",
+          "title": "Forced reflow",
+          "score": 0
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "display": "Est savings of 43 KiB"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "device": "mobile",
+      "url": "https://surveisekolah.rezaprama.com/en/",
+      "date": "2026-10-20T22:45:13.086Z",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 1191.949,
+        "largest-contentful-paint": 1942.8980000000001,
+        "total-blocking-time": 12,
+        "cumulative-layout-shift": 0.0008640449743722798,
+        "speed-index": 2528.669659807258
+      },
+      "issues": [
+        {
+          "id": "first-contentful-paint",
+          "title": "First Contentful Paint",
+          "score": 0.99,
+          "display": "1.2 s"
+        },
+        {
+          "id": "largest-contentful-paint",
+          "title": "Largest Contentful Paint",
+          "score": 0.97,
+          "display": "1.9 s"
+        },
+        {
+          "id": "speed-index",
+          "title": "Speed Index",
+          "score": 0.97,
+          "display": "2.5 s"
+        },
+        {
+          "id": "interactive",
+          "title": "Time to Interactive",
+          "score": 0.99,
+          "display": "2.0 s"
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "display": "Est savings of 9 KiB"
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "device": "desktop",
+      "url": "https://surveisekolah.rezaprama.com/en/",
+      "date": "2026-10-20T22:45:23.391Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "metrics": {
+        "first-contentful-paint": 389.547,
+        "largest-contentful-paint": 442.547,
+        "total-blocking-time": 2,
+        "cumulative-layout-shift": 0,
+        "speed-index": 534.2950333133181
+      },
+      "issues": [
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "display": "Est savings of 42 KiB"
+        }
+      ]
+    }
+  ]
+}
